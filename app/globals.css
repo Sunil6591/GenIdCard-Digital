@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 antialiased;
+    position: relative;
+  }
+}
+
+/* Hide scrollbar for card carousel */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Fix background image stretching on mobile */
+@media (max-width: 768px) {
+  .site-background {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: scroll !important;
+    object-fit: cover;
+  }
+}
+
