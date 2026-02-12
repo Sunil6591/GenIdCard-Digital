@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
             <Image
-              src="/logo.png"
+              src="/digital/logo.png"
               alt="GenIdCard Logo"
               width={64}
               height={64}
@@ -17,12 +17,6 @@ export default function Header() {
             />
           </Link>
           <div className="flex items-center gap-6">
-            <Link
-              href="/offerings"
-              className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
-            >
-              Offerings
-            </Link>
             <Link
               href="https://console.genidcard.com"
               target="_blank"

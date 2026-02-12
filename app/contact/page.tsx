@@ -93,47 +93,6 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* What You Can Contact Us For */}
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">What You Can Contact Us For</h2>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {[
-                  "Product demo or walkthrough",
-                  "School or institutional onboarding",
-                  "Bulk ID card imports & setup",
-                  "Printing workflow queries",
-                  "Technical support or issues",
-                  "Feedback or feature suggestions",
-                ].map((item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-center gap-3 bg-gray-50 p-4 rounded-lg"
-                  >
-                    <span className="text-primary-600 font-bold">✓</span>
-                    <span className="text-gray-700">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* For Schools & Institutions */}
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">For Schools & Institutions</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                If you are a <strong>school principal, administrator, or office staff</strong>, we
-                would be happy to:
-              </p>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                <li>Explain how GenIdCard works</li>
-                <li>Share a demo link</li>
-                <li>Help you set up forms or bulk imports</li>
-                <li>Guide you through print-ready workflows</li>
-              </ul>
-              <p className="text-gray-700 leading-relaxed">
-                Please email us with your school name and contact details.
-              </p>
-            </div>
-
             {/* Grievance & Support */}
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Grievance & Support</h2>
@@ -179,4 +138,3 @@ export default function ContactPage() {
     </main>
   );
 }
-

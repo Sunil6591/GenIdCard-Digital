@@ -11,7 +11,7 @@ export default function ContactForm() {
   // WhatsApp phone number (update with your actual number)
   // Format: country code + number without + or spaces (e.g., 919876543210 for India)
   const whatsappNumber = "919960549912";
-  const defaultMessage = "Hi, I am interested in Gen Id Card";
+  const defaultMessage = "Hi, I'm interested in the Digital Event Pass system. I'd like to book a demo.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   const handleWhatsAppClick = () => {
@@ -28,7 +28,7 @@ export default function ContactForm() {
     <section id="contact" className="py-20 px-4 bg-white/95">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-8">
-          Get in Touch
+          Book a Demo or Get Started
         </h2>
         <div className="flex justify-center">
           <a

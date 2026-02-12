@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
-import WhoItsFor from "@/components/WhoItsFor";
+import TheProblem from "@/components/TheProblem";
 import HowItWorks from "@/components/HowItWorks";
-import WhyGenIdCard from "@/components/WhyGenIdCard";
+import PowerfulFeatures from "@/components/PowerfulFeatures";
+import BuiltFor from "@/components/BuiltFor";
+import AnalyticsDashboard from "@/components/AnalyticsDashboard";
+import PrivacyTrust from "@/components/PrivacyTrust";
 import Pricing from "@/components/Pricing";
-import PaymentSection from "@/components/PaymentSection";
-import Trust from "@/components/Trust";
+import CTASection from "@/components/CTASection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
@@ -12,15 +14,16 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <WhoItsFor />
+      <TheProblem />
       <HowItWorks />
-      <WhyGenIdCard />
+      <PowerfulFeatures />
+      <BuiltFor />
+      <AnalyticsDashboard />
+      <PrivacyTrust />
       <Pricing />
-      <PaymentSection />
-      <Trust />
+      <CTASection />
       <ContactForm />
       <Footer />
     </main>
   );
 }
-

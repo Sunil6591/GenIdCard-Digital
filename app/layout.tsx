@@ -8,32 +8,32 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "GenIdCard - Generate Print-Ready ID Cards Without Errors",
+  title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
   description:
-    "Collect data, validate records, and generate front–back ID cards that printers can trust. Built for schools, colleges, corporates, and printers.",
-  keywords: ["ID cards", "student ID", "employee ID", "ID card generator", "print-ready ID cards"],
+    "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time. Built for trade shows, conferences, and corporate events.",
+  keywords: ["digital event pass", "QR event pass", "event registration", "exhibition pass", "corporate event"],
   icons: {
     icon: [
-      { url: "/logo.png", sizes: "any", type: "image/png" },
-      { url: "/logo.png", sizes: "192x192", type: "image/png" },
-      { url: "/logo.png", sizes: "512x512", type: "image/png" },
+      { url: "/digital/logo.png", sizes: "any", type: "image/png" },
+      { url: "/digital/logo.png", sizes: "192x192", type: "image/png" },
+      { url: "/digital/logo.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/logo.png", sizes: "180x180", type: "image/png" },
+      { url: "/digital/logo.png", sizes: "180x180", type: "image/png" },
     ],
   },
   openGraph: {
-    title: "GenIdCard - Generate Print-Ready ID Cards Without Errors",
+    title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
     description:
-      "Collect data, validate records, and generate front–back ID cards that printers can trust. Built for schools, colleges, corporates, and printers.",
-    url: "https://genidcard.com",
-    siteName: "GenIdCard",
+      "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
+    url: "https://digital.genidcard.com",
+    siteName: "Digital GenIdCard",
     images: [
       {
-        url: "https://genidcard.com/printing-confident.png",
+        url: "https://genidcard.com/digital/logo.png",
         width: 1200,
         height: 630,
-        alt: "Printing Confident",
+        alt: "Digital GenIdCard",
       },
     ],
     locale: "en_US",
@@ -41,10 +41,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GenIdCard - Generate Print-Ready ID Cards Without Errors",
+    title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
     description:
-      "Collect data, validate records, and generate front–back ID cards that printers can trust.",
-    images: ["https://genidcard.com/printing-confident.png"],
+      "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
+    images: ["https://genidcard.com/digital/logo.png"],
   },
 };
 
