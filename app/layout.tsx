@@ -7,8 +7,14 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://digital.genidcard.com");
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://digital.genidcard.com"),
+  metadataBase: new URL(BASE_URL),
   title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
   description:
     "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time. Built for trade shows, conferences, and corporate events.",
@@ -27,7 +33,7 @@ export const metadata: Metadata = {
     title: "Smart Digital Event Pass & Access System",
     description:
       "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
-    url: "https://digital.genidcard.com",
+    url: BASE_URL,
     siteName: "Digital GenIdCard",
     images: [
       {
