@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
+    title: "Smart Digital Event Pass & Access System",
     description:
       "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
     url: "https://digital.genidcard.com",
