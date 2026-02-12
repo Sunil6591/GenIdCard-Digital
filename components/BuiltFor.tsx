@@ -46,6 +46,7 @@ export default function BuiltFor() {
                 height={500}
                 className="w-full h-auto"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
             <div className="p-6 md:p-8 flex-1">
@@ -79,6 +80,7 @@ export default function BuiltFor() {
                 height={500}
                 className="w-full h-auto"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
             <div className="p-6 md:p-8 flex-1">

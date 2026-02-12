@@ -28,7 +28,7 @@ export default function TheProblem() {
               height={600}
               className="w-full h-auto rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
-              priority
+              loading="lazy"
             />
           </div>
           <div className="w-full">
@@ -39,6 +39,7 @@ export default function TheProblem() {
               height={600}
               className="w-full h-auto rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
         </div>

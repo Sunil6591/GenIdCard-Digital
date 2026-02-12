@@ -29,6 +29,7 @@ export default function AnalyticsDashboard() {
               height={500}
               className="w-full h-auto rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
           <div className="w-full">
@@ -39,6 +40,7 @@ export default function AnalyticsDashboard() {
               height={500}
               className="w-full h-auto rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
         </div>

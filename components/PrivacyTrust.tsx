@@ -15,6 +15,7 @@ export default function PrivacyTrust() {
             height={800}
             className="w-full h-auto rounded-xl shadow-lg"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 896px"
+            loading="lazy"
           />
         </div>
       </div>

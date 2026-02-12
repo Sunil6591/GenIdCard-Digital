@@ -33,7 +33,7 @@ export default function HowItWorks() {
             height={800}
             className="w-full h-auto rounded-xl shadow-lg"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 896px"
-            priority
+            loading="lazy"
           />
         </div>
         <div className="grid md:grid-cols-3 gap-8">
