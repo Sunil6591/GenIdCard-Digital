@@ -8,6 +8,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://digital.genidcard.com"),
   title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
   description:
     "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time. Built for trade shows, conferences, and corporate events.",
@@ -30,10 +31,11 @@ export const metadata: Metadata = {
     siteName: "Digital GenIdCard",
     images: [
       {
-        url: "https://genidcard.com/digital/logo.png",
+        url: "/digital/logo.png",
         width: 1200,
-        height: 630,
-        alt: "Digital GenIdCard",
+        height: 1200,
+        alt: "GenIdCard.com - Smart Digital Event Pass & Access System",
+        type: "image/png",
       },
     ],
     locale: "en_US",
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
     title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
     description:
       "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
-    images: ["https://genidcard.com/digital/logo.png"],
+    images: ["/digital/logo.png"],
   },
 };
 
