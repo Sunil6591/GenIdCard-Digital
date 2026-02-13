@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import HeroTypewriter from "./HeroTypewriter";
 
@@ -19,19 +18,11 @@ export default function Hero() {
           />
         </div>
         <HeroTypewriter />
-        <p className="text-lg md:text-xl text-gray-600 mb-10">
+        <p className="text-lg md:text-xl text-gray-600">
           Create secure QR-based digital passes for exhibitions and corporate events.
           <br />
           <span className="font-semibold text-gray-800">Scan. Verify. Track. In Real-Time.</span>
         </p>
-        <div className="flex justify-center">
-          <Link
-            href="#contact"
-            className="px-8 py-4 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl"
-          >
-            Get Started
-          </Link>
-        </div>
       </div>
     </section>
   );

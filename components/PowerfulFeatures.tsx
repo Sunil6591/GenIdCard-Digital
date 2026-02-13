@@ -8,7 +8,7 @@ export default function PowerfulFeatures() {
     "CSV Export Reports",
     "Session Check-in Tracking",
     "Sponsor Booth Visit Tracking",
-    "Offline Scan Mode",
+    "Scan Location Tracking",
   ];
 
   return (
