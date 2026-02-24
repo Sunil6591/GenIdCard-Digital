@@ -18,7 +18,7 @@ export default function Header() {
           </Link>
           <div className="flex items-center gap-6">
             <Link
-              href="https://console.footfalliq.com"
+              href="https://console.genidcard.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-primary-600 font-medium transition-colors border border-gray-300 rounded px-4 py-2 hover:border-primary-600"
