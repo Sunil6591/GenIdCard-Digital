@@ -11,7 +11,7 @@ export default function ContactForm() {
   // WhatsApp phone number (update with your actual number)
   // Format: country code + number without + or spaces (e.g., 919876543210 for India)
   const whatsappNumber = "919960549912";
-  const defaultMessage = "Hi, I'm interested in the Digital Event Pass system. I'd like to book a demo.";
+  const defaultMessage = "Hi, I'm interested in FootfallIQ. I'd like to book a demo.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   const handleWhatsAppClick = () => {

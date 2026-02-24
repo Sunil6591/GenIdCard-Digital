@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export default function TermsPage() {
@@ -9,7 +10,7 @@ export default function TermsPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Terms & Conditions
           </h1>
-          <p className="text-lg text-gray-600">GenIdCard</p>
+          <p className="text-lg text-gray-600">FootfallIQ</p>
         </div>
       </section>
 
@@ -22,7 +23,7 @@ export default function TermsPage() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 These Terms and Conditions govern the use of this website and services operated by{" "}
                 <strong>Twin Enterprises</strong> (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), including the{" "}
-                <strong>GenIdCard</strong> platform.
+                <strong>FootfallIQ</strong> platform.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
                 By accessing or using this website, including purchasing products or using our digital
@@ -65,150 +66,15 @@ export default function TermsPage() {
               </p>
             </div>
 
-            {/* Privacy Policy */}
-            <div className="space-y-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
-
-              <p className="text-gray-700 leading-relaxed">
-                We respect your privacy and are committed to protecting your personal data in accordance with the <strong>Digital Personal Data Protection (DPDP) Act, 2023</strong> of India.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                This Privacy Policy explains how we collect, use, store, and protect your personal data.
-              </p>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">1. Data We Collect</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  We may collect the following personal data when you use our platform or submit a form:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>Name</li>
-                  <li>Photograph</li>
-                  <li>Contact details (such as email or mobile number)</li>
-                  <li>Organization / school / event details</li>
-                  <li>Any other information required for ID card or digital ticket generation</li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  We collect only the data that is necessary for the stated purpose. When you browse our website, we may also collect technical information such as IP address, device type, and browser details for security, analytics, and service improvement purposes.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">2. Purpose of Data Collection</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Your personal data is collected and used only for the following purposes:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>Creating physical or digital ID cards / tickets</li>
-                  <li>Verifying identity for access or validation</li>
-                  <li>Generating print-ready or digital credentials</li>
-                  <li>Providing project-specific reports or analytics</li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  Your data will not be used for any unrelated purpose without your explicit consent. We do <strong>not</strong> sell or misuse personal data. Email or communication will be sent <strong>only with appropriate consent</strong>.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">3. Consent</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  By submitting your information on our platform, you provide explicit consent for us to collect and process your personal data for the purposes mentioned above.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  You may withdraw your consent at any time by contacting us (details below).
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">4. Data Storage & Security</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  We take reasonable technical and organizational measures to protect your data, including:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>Secure cloud storage</li>
-                  <li>Restricted access controls</li>
-                  <li>Encrypted data transmission</li>
-                  <li>Project-level data isolation</li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  We continuously review and improve our security practices.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">5. Data Sharing</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  We do not sell or rent personal data.
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Data may be shared only:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>With authorized project owners (schools, corporates, event organizers)</li>
-                  <li>When required by law or government authorities</li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  All data sharing is limited to the stated purpose. We may also disclose personal information when necessary to fulfill the requested service or when there is a violation of these Terms and Conditions.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">6. Data Retention & Deletion</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Personal data is retained only for as long as required for the project or legal obligations.
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Data is securely deleted when:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>The project ends</li>
-                  <li>The data is no longer required</li>
-                  <li>A valid deletion request is received</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">7. Your Rights</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Under the DPDP Act, you have the right to:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                  <li>Access your personal data</li>
-                  <li>Request correction of inaccurate data</li>
-                  <li>Request deletion of your data</li>
-                  <li>Withdraw consent</li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  Requests can be raised using the contact details below.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-3">8. Data Breach Handling</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  In case of a data breach, we will take immediate steps to:
-                </p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Contain and assess the breach</li>
-                  <li>Notify affected parties where required</li>
-                  <li>Comply with legal reporting obligations</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Student & Child Data Protection */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Student & Child Data Protection</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                GenIdCard may process personal data of students, including minors,{" "}
-                <strong>only as provided and authorized by the institution or parent/guardian</strong>.
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Privacy Policy</h2>
+              <p className="text-gray-700 leading-relaxed">
+                For information on how we collect, use, store, and protect your personal data, including student and child data protection, please see our{" "}
+                <Link href="/privacy" className="text-primary-600 hover:underline font-semibold">
+                  Privacy Policy
+                </Link>
+                .
               </p>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                <li>Student data is used <strong>solely for ID card generation and related services</strong></li>
-                <li>Access is restricted to authorized personnel and systems</li>
-                <li>Student data is not used for advertising or marketing</li>
-                <li>Institutions are responsible for obtaining required parental consent</li>
-              </ul>
             </div>
 
             {/* Limitation of Liability */}

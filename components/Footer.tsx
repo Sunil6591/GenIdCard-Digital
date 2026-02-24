@@ -7,13 +7,14 @@ export default function Footer() {
     { label: "Pricing", href: "/#pricing" },
     { label: "Contact", href: "/contact" },
     { label: "Terms", href: "/terms" },
+    { label: "Privacy", href: "/privacy" },
   ];
 
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
-          <div className="text-xl font-bold text-white">GenIdCard</div>
+          <div className="text-xl font-bold text-white">FootfallIQ</div>
           <nav className="flex flex-wrap gap-6 justify-center">
             {footerLinks.map((link, index) => (
               <Link

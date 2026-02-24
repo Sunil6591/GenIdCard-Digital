@@ -25,13 +25,13 @@ export default function HowItWorks() {
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
           How it works
         </h2>
-        <div className="w-full max-w-4xl mx-auto mb-12">
+        <div className="w-full max-w-5xl mx-auto mb-12">
           <Image
             src="/digital/How%20it%20works.jpg"
             alt="How the digital event pass system works"
-            width={1200}
-            height={800}
-            className="w-full h-auto rounded-xl shadow-lg"
+            width={1400}
+            height={900}
+            className="w-full h-auto min-h-[320px] rounded-xl shadow-lg"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 90vw, 896px"
             loading="lazy"
           />

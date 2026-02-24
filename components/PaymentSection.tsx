@@ -42,7 +42,7 @@ export default function PaymentSection() {
               <p className="text-gray-700">
                 After payment, send transaction ID Or Payment receipt to:{" "}
                 <a
-                  href={`https://wa.me/919960549912?text=${encodeURIComponent("Hi, I have made the payment for Gen Id Card. Here are my payment details:")}`}
+                  href={`https://wa.me/919960549912?text=${encodeURIComponent("Hi, I have made the payment for FootfallIQ. Here are my payment details:")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => {

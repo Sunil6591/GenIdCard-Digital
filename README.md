@@ -1,8 +1,6 @@
-# GenIdCard Marketing Website
+# FootfallIQ Marketing Website
 
-Test commit.
-
-A clean, professional marketing website for GenIdCard - a SaaS product for generating print-ready ID cards.
+A clean, professional marketing website for FootfallIQ - Smart Digital Event Pass & Access System.
 
 ## Tech Stack
 

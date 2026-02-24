@@ -12,7 +12,7 @@ export default function TheProblem() {
 
   return (
     <section className="py-20 px-4 bg-gray-50/95">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-6">
           The Problem with Traditional Event Entry
         </h2>
@@ -24,9 +24,9 @@ export default function TheProblem() {
             <Image
               src="/digital/How_the_footfall_captured_today.jpg"
               alt="How footfall is captured today"
-              width={800}
-              height={600}
-              className="w-full h-auto rounded-xl shadow-lg"
+              width={1200}
+              height={900}
+              className="w-full h-auto min-h-[300px] rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
               loading="lazy"
             />
@@ -35,9 +35,9 @@ export default function TheProblem() {
             <Image
               src="/digital/Why%20this%20is%20business%20problem.jpg"
               alt="Why this is a business problem - traditional event entry challenges"
-              width={800}
-              height={600}
-              className="w-full h-auto rounded-xl shadow-lg"
+              width={1200}
+              height={900}
+              className="w-full h-auto min-h-[300px] rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
               loading="lazy"
             />

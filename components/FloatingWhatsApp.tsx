@@ -9,7 +9,7 @@ declare global {
 
 export default function FloatingWhatsApp() {
   const whatsappNumber = "919960549912";
-  const defaultMessage = "Hi, I am interested in Gen Id Card";
+  const defaultMessage = "Hi, I am interested in FootfallIQ";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   const handleWhatsAppClick = () => {

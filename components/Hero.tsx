@@ -5,20 +5,20 @@ import HeroTypewriter from "./HeroTypewriter";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white/95 px-4 py-20">
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center mb-6">
+    <section className="relative min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center bg-white/95 px-4 py-8">
+      <div className="max-w-6xl mx-auto text-center w-full flex flex-col items-center gap-4">
+        <div className="flex justify-center w-full flex-1 min-h-0 max-h-[45vh]">
           <Image
-            src="/digital/logo.png"
-            alt="GenIdCard Digital Logo"
-            width={280}
-            height={280}
-            className="h-32 md:h-44 lg:h-56 w-auto object-contain"
+            src="/digital/hero.png"
+            alt="FootfallIQ"
+            width={900}
+            height={500}
+            className="w-full h-full max-h-[45vh] object-contain"
             priority
           />
         </div>
         <HeroTypewriter />
-        <p className="text-lg md:text-xl text-gray-600">
+        <p className="text-base md:text-lg text-gray-600">
           Create secure QR-based digital passes for exhibitions and corporate events.
           <br />
           <span className="font-semibold text-gray-800">Scan. Verify. Track. In Real-Time.</span>

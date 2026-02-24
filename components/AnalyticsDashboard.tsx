@@ -13,7 +13,7 @@ export default function AnalyticsDashboard() {
 
   return (
     <section className="py-20 px-4 bg-gray-50/95">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-6">
           Real-Time Analytics Dashboard
         </h2>
@@ -25,9 +25,9 @@ export default function AnalyticsDashboard() {
             <Image
               src="/digital/Footfall%20analytics.jpg"
               alt="Footfall analytics - hourly entry and visitor patterns"
-              width={800}
-              height={500}
-              className="w-full h-auto rounded-xl shadow-lg"
+              width={1200}
+              height={700}
+              className="w-full h-auto min-h-[320px] rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
               loading="lazy"
             />
@@ -36,9 +36,9 @@ export default function AnalyticsDashboard() {
             <Image
               src="/digital/Demographics%20analytics.jpg"
               alt="Demographics analytics - visitor breakdown and insights"
-              width={800}
-              height={500}
-              className="w-full h-auto rounded-xl shadow-lg"
+              width={1200}
+              height={700}
+              className="w-full h-auto min-h-[320px] rounded-xl shadow-lg"
               sizes="(max-width: 768px) 100vw, 50vw"
               loading="lazy"
             />

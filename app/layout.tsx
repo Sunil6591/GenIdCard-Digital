@@ -11,22 +11,22 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ||
   (process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
-    : "https://digital.genidcard.com");
+    : "https://footfalliq.com");
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
+  title: "FootfallIQ - Smart Digital Event Pass & Access System",
   description:
     "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time. Built for trade shows, conferences, and corporate events.",
   keywords: ["digital event pass", "QR event pass", "event registration", "exhibition pass", "corporate event"],
   icons: {
     icon: [
-      { url: "/digital/logo.png", sizes: "any", type: "image/png" },
-      { url: "/digital/logo.png", sizes: "192x192", type: "image/png" },
-      { url: "/digital/logo.png", sizes: "512x512", type: "image/png" },
+      { url: "/digital/fav.ico", sizes: "any", type: "image/x-icon" },
+      { url: "/digital/fav.ico", sizes: "192x192", type: "image/x-icon" },
+      { url: "/digital/fav.ico", sizes: "512x512", type: "image/x-icon" },
     ],
     apple: [
-      { url: "/digital/logo.png", sizes: "180x180", type: "image/png" },
+      { url: "/digital/fav.ico", sizes: "180x180", type: "image/x-icon" },
     ],
   },
   openGraph: {
@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     description:
       "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
     url: BASE_URL,
-    siteName: "Digital GenIdCard",
+    siteName: "FootfallIQ",
     images: [
       {
         url: "/digital/logo.png",
         width: 1200,
         height: 1200,
-        alt: "GenIdCard.com - Smart Digital Event Pass & Access System",
+        alt: "FootfallIQ - Smart Digital Event Pass & Access System",
         type: "image/png",
       },
     ],
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital.GenIdCard.com - Smart Digital Event Pass & Access System",
+    title: "FootfallIQ - Smart Digital Event Pass & Access System",
     description:
       "Create secure QR-based digital passes for exhibitions and corporate events. Scan. Verify. Track. In Real-Time.",
     images: ["/digital/logo.png"],

@@ -11,7 +11,7 @@ declare global {
 
 export default function ContactPage() {
   const whatsappNumber = "919960549912";
-  const defaultMessage = "Hi, I am interested in Gen Id Card";
+  const defaultMessage = "Hi, I am interested in FootfallIQ";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`;
 
   const handleWhatsAppClick = () => {
@@ -120,7 +120,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Business Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-xl text-gray-900">GenIdCard</strong>
+                  <strong className="text-xl text-gray-900">FootfallIQ</strong>
                   <br />
                   Operated by <strong>Twin Enterprises</strong>
                   <br />

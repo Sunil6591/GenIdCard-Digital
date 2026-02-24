@@ -56,7 +56,7 @@ export default function HeroTypewriter() {
   }, [displayText, isDeleting, wordIndex]);
 
   return (
-    <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-900 mb-4 min-h-[3rem] md:min-h-[4rem] flex items-center justify-center flex-wrap">
+    <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900 min-h-[2.5rem] flex items-center justify-center flex-wrap">
       <span className="text-gray-900 mr-1">Smart Digital Passes for </span>
       <span className="text-primary-600 inline-flex">
         {displayText}

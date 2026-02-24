@@ -34,7 +34,7 @@ export default function BuiltFor() {
 
   return (
     <section className="py-20 px-4 bg-white/95">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
           {/* Exhibitions */}
           <div className="bg-gray-50 rounded-xl overflow-hidden shadow-sm flex flex-col">
@@ -42,9 +42,9 @@ export default function BuiltFor() {
               <Image
                 src="/digital/stall%20analytics.jpg"
                 alt="Stall analytics for exhibitions"
-                width={800}
-                height={500}
-                className="w-full h-auto"
+                width={1000}
+                height={600}
+                className="w-full h-auto min-h-[280px] object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 loading="lazy"
               />
@@ -76,9 +76,9 @@ export default function BuiltFor() {
               <Image
                 src="/digital/why%20sponsors%20say%20yes.jpg"
                 alt="Why sponsors say yes - sponsor reporting and visibility"
-                width={800}
-                height={500}
-                className="w-full h-auto"
+                width={1000}
+                height={600}
+                className="w-full h-auto min-h-[280px] object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 loading="lazy"
               />
