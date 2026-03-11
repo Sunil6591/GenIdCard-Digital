@@ -23,8 +23,8 @@ const PLANS = [
     name: "Pro",
     emoji: "🔵",
     quantity: 1000,
-    perId: "4.20",
-    total: 4200,
+    perId: "2.99",
+    total: 2990,
     description: "Best for exhibitions & mid-size corporate events.",
     features: [
       "1000 QR-Based Digital Passes",
@@ -40,12 +40,13 @@ const PLANS = [
   {
     name: "Enterprise",
     emoji: "🟣",
-    quantity: 3000,
-    perId: "3.67",
-    total: 10999,
+    quantity: 5000,
+    quantityDisplay: "5000+",
+    perId: "0.99",
+    total: 4950,
     description: "Built for large expos & corporate summits.",
     features: [
-      "3000 QR-Based Digital Passes",
+      "5000+ QR-Based Digital Passes",
       "Unlimited Scans",
       "Customised Ticket Design",
       "Full Dashboard Access",
@@ -69,14 +70,14 @@ export default function Pricing() {
           All Features Included in Every Plan
         </p>
         <p className="text-center text-gray-600 mb-12">
-          Only the Number of Digital IDs Changes.
+          Only the Number of Digital Passes Changes.
         </p>
 
         {/* Above cards tagline */}
         <p className="text-center text-lg font-semibold text-gray-800 mb-10">
           Same Features Across All Plans.
           <br />
-          No Feature Lock. No Hidden Costs. Just Scale by IDs.
+          No Feature Lock. No Hidden Costs. Just Scale by Passes.
         </p>
 
         {/* Pricing Cards */}
@@ -95,7 +96,7 @@ export default function Pricing() {
                 {plan.name}
               </h3>
               <p className="text-xl font-semibold mb-2">
-                {plan.quantity.toLocaleString()} Digital IDs
+                {("quantityDisplay" in plan ? plan.quantityDisplay : plan.quantity.toLocaleString())} Digital Passes
               </p>
               <div className="mb-4">
                 <div className={`text-3xl font-bold ${plan.featured ? "text-white" : "text-primary-600"}`}>
