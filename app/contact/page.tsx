@@ -122,10 +122,10 @@ export default function ContactPage() {
                 <p className="text-gray-700 leading-relaxed">
                   <strong className="text-xl text-gray-900">FootfallIQ</strong>
                   <br />
-                  Operated by <strong>Twin Enterprises</strong>
+                  Operated by <strong>Spopsy (Sole Proprietorship)</strong>
                   <br />
                   <span className="mt-2 block">
-                    📍 400/2 Shaniwar Peth, Sudarshan Apartment, near Bank Of Maharashtra, Pune 411030
+                    📍 K 1502, Hillview Residency, Kothrud, Pune 411038
                   </span>
                 </p>
               </div>

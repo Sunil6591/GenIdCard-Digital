@@ -29,10 +29,10 @@ export default function Footer() {
         </div>
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-sm text-gray-400 mb-1">
-            <span className="font-semibold text-gray-300">Twin Enterprises</span>
+            <span className="font-semibold text-gray-300">Spopsy (Sole Proprietorship)</span>
           </p>
           <p className="text-sm text-gray-400">
-            400/2, Shaniwar Peth, Sudarshan Apt, Pune 411038
+            K 1502, Hillview Residency, Kothrud, Pune 411038
           </p>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function TermsPage() {
             <div>
               <p className="text-lg text-gray-700 leading-relaxed">
                 These Terms and Conditions govern the use of this website and services operated by{" "}
-                <strong>Twin Enterprises</strong> (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), including the{" "}
+                <strong>Spopsy (Sole Proprietorship)</strong> (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;), including the{" "}
                 <strong>FootfallIQ</strong> platform.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed mt-4">
@@ -90,7 +90,7 @@ export default function TermsPage() {
                 error.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                To the maximum extent permitted by law, <strong>Twin Enterprises</strong> shall not be
+                To the maximum extent permitted by law, <strong>Spopsy (Sole Proprietorship)</strong> shall not be
                 liable for any indirect, incidental, special, or consequential damages, including loss
                 of data, profits, reputation, or business opportunities arising from the use of our
                 services or products.
@@ -105,7 +105,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Indemnification</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                You agree to indemnify, defend, and hold harmless <strong>Twin Enterprises</strong>,
+                You agree to indemnify, defend, and hold harmless <strong>Spopsy (Sole Proprietorship)</strong>,
                 its owners, directors, employees, contractors, and service providers from any claims,
                 losses, damages, or expenses (including reasonable legal fees) arising from:
               </p>
@@ -126,7 +126,7 @@ export default function TermsPage() {
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Any disputes shall be subject to the exclusive jurisdiction of the courts located in{" "}
-                <strong>400/2 Shaniwar Peth, Sudarshan Apartment, near Bank Of Maharashtra, Pune 411030</strong>.
+                <strong>K 1502, Hillview Residency, Kothrud, Pune 411038</strong>.
               </p>
             </div>
 
@@ -166,9 +166,9 @@ export default function TermsPage() {
             <div className="pt-6 border-t border-gray-200">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Contact Information</h2>
               <p className="text-gray-700 leading-relaxed">
-                <strong>Twin Enterprises</strong>
+                <strong>Spopsy (Sole Proprietorship)</strong>
                 <br />
-                400/2 Shaniwar Peth, Sudarshan Apartment, near Bank Of Maharashtra, Pune 411030
+                K 1502, Hillview Residency, Kothrud, Pune 411038
                 <br />
                 📧{" "}
                 <a href="mailto:info@genidcard.com" className="text-primary-600 hover:underline">

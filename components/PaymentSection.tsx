@@ -15,10 +15,10 @@ export default function PaymentSection() {
           <div className="space-y-6">
             <div className="text-center">
               <p className="text-lg text-gray-700 mb-2">
-                <span className="font-semibold">Company:</span> Twin Enterprises
+                <span className="font-semibold">Company:</span> Spopsy (Sole Proprietorship)
               </p>
               <p className="text-sm text-gray-600">
-                400/2, Shaniwar Peth, Sudarshan Apt, Pune 411038
+                K 1502, Hillview Residency, Kothrud, Pune 411038
               </p>
             </div>
             <div className="text-center">

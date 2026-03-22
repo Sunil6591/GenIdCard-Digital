@@ -18,34 +18,55 @@ export default function AboutPage() {
           <div className="bg-white p-8 md:p-12 rounded-lg shadow-md space-y-8">
             <div>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Established in <strong>2012</strong>, Twin Enterprises is a leading manufacturer and supplier of high-quality ID cards and corporate branding solutions. We specialize in school ID card solutions and are well-positioned to cater to educational institutions, corporates, and organizations with reliable and cost-effective products.
+                With over 20 years of experience in software product development, Spopsy (Sole Proprietorship) is a technology-driven company focused on building practical, scalable, and business-oriented digital solutions.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Product Range</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                Our product range includes <strong>PVC ID Cards</strong>, <strong>NFC Cards</strong>, <strong>Magnetic Strip Cards</strong>, <strong>HID Proximity & Contactless Cards</strong>, door entrance cards, and a wide variety of lanyards such as screen-printed and multicolor lanyards. We also provide all types of card holders, badge clips, yo-yo pullies, luggage tags, and complete ID card accessories.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Additional Services</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                In addition to ID card manufacturing, we offer <strong>brochure designing</strong>, <strong>cap printing</strong>, <strong>mug printing</strong>, and other customized branding solutions to meet diverse client requirements. With years of industry experience, we focus on quality, durability, and timely delivery.
+                At Spopsy, we specialize in developing software products that simplify operations, improve efficiency, and enable data-driven decision-making. Our approach combines deep domain understanding with user-friendly design to deliver solutions that are easy to adopt and impactful in real-world use.
               </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Core Offerings</h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                Our key software products include:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-3 ml-4">
+                <li>
+                  <strong>FootfallIQ</strong> – A QR-based digital pass system for exhibitions and events, enabling real-time visitor tracking, seamless entry management, and actionable insights.
+                </li>
+                <li>
+                  <strong>GenIdCard</strong> – A platform designed for printers and organizations to easily collect data and generate print-ready ID cards efficiently.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Extended Capabilities</h2>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                In addition to our software products, we also support clients with end-to-end execution. This combination of technology + execution allows us to deliver complete, practical solutions rather than just standalone tools.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Philosophy</h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+                At Spopsy, we believe software should solve real problems—not create complexity. Every product we build is focused on:
+              </p>
+              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                <li>Simplicity and usability</li>
+                <li>Reliability at scale</li>
+                <li>Real-time visibility and insights</li>
+                <li>Seamless integration with existing workflows</li>
+              </ul>
             </div>
 
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Commitment</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                At Twin Enterprises, we take pride in our sincere, prompt service and long-term customer relationships. Our commitment to quality and customer satisfaction makes us a trusted name in the ID card and printing industry.
-              </p>
-            </div>
-
-            <div className="pt-6 border-t border-gray-200">
-              <p className="text-lg text-gray-700">
-                <strong>GST Number:</strong> <span className="font-mono">27AJAPV2633H1Z6</span>
+                We are committed to long-term partnerships by delivering consistent quality, responsive support, and solutions that evolve with our customers&apos; needs. Our 20+ years of experience enable us to understand both technology and business—making us a trusted partner for organizations across industries.
               </p>
             </div>
           </div>
@@ -56,4 +77,3 @@ export default function AboutPage() {
     </main>
   );
 }
-
