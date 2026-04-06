@@ -81,10 +81,10 @@ export default function ContactPage() {
                   📧 <strong>Email</strong>
                   <br />
                   <a
-                    href="mailto:info@genidcard.com"
+                    href="mailto:yo@spopsy.com"
                     className="text-primary-600 hover:underline font-semibold text-xl"
                   >
-                    info@genidcard.com
+                    yo@spopsy.com
                   </a>
                 </p>
                 <p className="text-gray-600 mt-4">
@@ -104,10 +104,10 @@ export default function ContactPage() {
                 <br />
                 📧{" "}
                 <a
-                  href="mailto:info@genidcard.com"
+                  href="mailto:yo@spopsy.com"
                   className="text-primary-600 hover:underline font-semibold"
                 >
-                  info@genidcard.com
+                  yo@spopsy.com
                 </a>
               </p>
               <p className="text-gray-700 leading-relaxed">

@@ -59,8 +59,8 @@ export default function TermsPage() {
               </ul>
               <p className="text-gray-700 leading-relaxed mt-4">
                 For clarification, please contact our support team at{" "}
-                <a href="mailto:info@genidcard.com" className="text-primary-600 hover:underline">
-                  info@genidcard.com
+                <a href="mailto:yo@spopsy.com" className="text-primary-600 hover:underline">
+                  yo@spopsy.com
                 </a>
                 .
               </p>
@@ -139,8 +139,8 @@ export default function TermsPage() {
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 📧{" "}
-                <a href="mailto:info@genidcard.com" className="text-primary-600 hover:underline font-semibold">
-                  info@genidcard.com
+                <a href="mailto:yo@spopsy.com" className="text-primary-600 hover:underline font-semibold">
+                  yo@spopsy.com
                 </a>
               </p>
               <p className="text-gray-700 leading-relaxed">
@@ -171,8 +171,8 @@ export default function TermsPage() {
                 K 1502, Hillview Residency, Kothrud, Pune 411038
                 <br />
                 📧{" "}
-                <a href="mailto:info@genidcard.com" className="text-primary-600 hover:underline">
-                  info@genidcard.com
+                <a href="mailto:yo@spopsy.com" className="text-primary-600 hover:underline">
+                  yo@spopsy.com
                 </a>
               </p>
             </div>

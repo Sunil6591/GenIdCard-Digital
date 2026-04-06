@@ -202,8 +202,8 @@ export default function PrivacyPage() {
                 Website: <a href="https://footfalliq.in" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">https://footfalliq.in</a>
                 <br />
                 Email:{" "}
-                <a href="mailto:info@genidcard.com" className="text-primary-600 hover:underline">
-                  info@genidcard.com
+                <a href="mailto:yo@spopsy.com" className="text-primary-600 hover:underline">
+                  yo@spopsy.com
                 </a>
               </p>
             </div>
