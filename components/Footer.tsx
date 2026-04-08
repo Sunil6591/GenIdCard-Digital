@@ -28,6 +28,9 @@ export default function Footer() {
           </nav>
         </div>
         <div className="border-t border-gray-800 pt-8 text-center">
+          <p className="text-sm text-gray-400 mb-4">
+            © 2026 Footfall IQ by Spopsy
+          </p>
           <p className="text-sm text-gray-400 mb-1">
             <span className="font-semibold text-gray-300">Spopsy (Sole Proprietorship)</span>
           </p>
