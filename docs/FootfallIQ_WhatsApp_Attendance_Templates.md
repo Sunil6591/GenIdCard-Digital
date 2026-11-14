@@ -1,6 +1,6 @@
 # FootfallIQ — WhatsApp Attendance Templates
 
-**Status:** Draft templates for Meta approval. Utility classification is proposed, not guaranteed.
+**Status:** Approved. The product owner confirmed on 14 November 2026 that all six supplied templates in English, Hindi and Marathi are approved and live. This confirmation does not establish a specific Meta category; the category labels below record the original proposal.
 
 **Languages:** English (`en`), Hindi (`hi`), Marathi (`mr`)  
 **Formatting:** Single literal asterisks (`*like this*`) mean WhatsApp bold. Blank lines are intentional.
@@ -367,9 +367,9 @@ Please review the full attendance report and pending exceptions in FootfallIQ.
 
 ---
 
-## Submission notes
+## Template maintenance notes
 
-- Submit each translation (`en`, `hi`, `mr`) for approval, using sample values for all variables.
+- The supplied translations (`en`, `hi`, `mr`) are approved per product-owner confirmation. Submit changed wording or new translations through the applicable approval process.
 - Keep literal `*` formatting and paragraph spacing when pasting the body.
 - Confirm WhatsApp messaging opt-in and business identification for each sending account.
 - For quick-reply buttons, listen for the reply webhook; send a separate interactive location request.

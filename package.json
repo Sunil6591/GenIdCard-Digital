@@ -11,6 +11,9 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "test:browser": "playwright test",
+    "test:seo": "playwright test tests/browser/seo.spec.ts",
+    "seo:report": "tsx scripts/seo-content-report.ts",
+    "social:generate": "node scripts/generate-social-preview.mjs",
     "templates:sync": "node scripts/sync-whatsapp-templates.mjs"
   },
   "dependencies": {

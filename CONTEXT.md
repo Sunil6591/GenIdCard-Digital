@@ -4,6 +4,8 @@ The public product story for WhatsApp-based employee attendance, distinct from F
 
 ## Language
 
+**Service operator**: Spopsy (Sole Proprietorship), the business operating FootfallIQ Attendance.
+
 **Employee**: A person assigned to a site and shift who explicitly shares their current location to mark attendance.
 
 **Site**: A work location with a configured attendance radius.
@@ -23,6 +25,6 @@ _Avoid_: Branch, geofence (when referring to the location itself)
 
 **Demonstration scene**: A clearly illustrative moment in the employee or supervisor attendance journey.
 
-**Approved template**: Exact WhatsApp message wording supplied and approved by the product owner. Initial sample wording is not an approved template.
+**Approved template**: Exact WhatsApp message wording approved by Meta for use with the product. Product-owner acceptance of wording and illustrative sample interactions do not by themselves establish Meta approval.
 
 **Draft template**: Supplied WhatsApp message wording awaiting Meta approval. It is distinct from both an approved template and an invented sample interaction.

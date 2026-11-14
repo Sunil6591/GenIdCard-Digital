@@ -1,3 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/config";
-export default function robots(): MetadataRoute.Robots { return { rules: { userAgent: "*", allow: "/", disallow: ["/api/", "/privacy", "/terms"] }, sitemap: new URL("/sitemap.xml", siteConfig.url).href }; }
+import { indexingEnabled } from "@/lib/seo";
+export default function robots(): MetadataRoute.Robots {
+  // Allow crawlers to see noindex on draft policy pages. Preview protection also needs authentication.
+  return indexingEnabled ? { rules: { userAgent: "*", allow: "/", disallow: ["/api/"] }, sitemap: new URL("/sitemap.xml", siteConfig.url).href } : { rules: { userAgent: "*", allow: "/", disallow: ["/api/"] } };
+}

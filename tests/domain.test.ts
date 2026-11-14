@@ -19,19 +19,19 @@ test("template text and injected HTML remain text tokens", () => {
   const value = substituteVariables("Welcome *{{name}}*", { name: '<img src=x onerror="alert(1)">' });
   assert.deepEqual(boldSegments(value), [{ text: "Welcome ", bold: false }, { text: '<img src=x onerror="alert(1)">', bold: true }]);
 });
-test("all 18 supplied draft templates match the source document verbatim, including final newlines", () => {
+test("all 18 supplied approved templates match the source document verbatim, including final newlines", () => {
   const source = readFileSync(new URL("../docs/FootfallIQ_WhatsApp_Attendance_Templates.md", import.meta.url), "utf8");
   for (const section of source.split(/^## \d+\. /m).slice(1)) {
     const key = section.match(/\*\*Template name:\*\* `([^`]+)`/)![1];
     for (const [locale, catalog] of Object.entries({ en, hi, mr })) {
       const text = section.match(new RegExp("### [^\\n]+\\(`" + locale + "`\\)\\n\\n```text\\n([\\s\\S]*?)```"))![1];
       assert.equal(catalog[key].text, text, `${key} (${locale}) must preserve source text`);
-      assert.equal(catalog[key].status, "draft");
+      assert.equal(catalog[key].status, "approved");
     }
   }
   assert.equal(Object.keys(en).length, 6); assert.equal(Object.keys(hi).length, 6); assert.equal(Object.keys(mr).length, 6);
 });
-test("Hindi and Marathi draft catalogs render with exact quick-reply labels", () => {
+test("Hindi and Marathi approved catalogs render with exact quick-reply labels", () => {
   const message = storyScenes[0].messages[0];
   assert.match(resolveMessage(message, "hi").text, /नमस्ते/);
   assert.match(resolveMessage(message, "mr").text, /नमस्कार/);

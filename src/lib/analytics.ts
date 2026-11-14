@@ -1,4 +1,4 @@
-export type AnalyticsEvent = "hero_cta_click" | "story_started" | "story_completed" | "story_skipped" | "story_stage_navigation" | "pricing_cta_click" | "demo_request_submitted" | "login_click" | "whatsapp_click";
+export type AnalyticsEvent = "hero_cta_click" | "story_started" | "story_completed" | "story_skipped" | "story_stage_navigation" | "pricing_cta_click" | "demo_request_submitted" | "login_click" | "whatsapp_click" | "signup_initiated" | "signup_completed" | "web_vital";
 type Properties = Record<string, string | number | boolean>;
 type Provider = (event: AnalyticsEvent, properties: Properties) => void;
 let provider: Provider | undefined;

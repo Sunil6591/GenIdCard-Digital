@@ -72,14 +72,12 @@ test("dashboard filters and sample report export work; enquiry never falsely suc
   const downloaded = page.waitForEvent("download");
   await dashboard.getByLabel("Download demonstration attendance report").click();
   expect((await downloaded).suggestedFilename()).toBe("footfalliq-sample-attendance.csv");
-  await page.getByText("Prefer to leave your details?", { exact: true }).click();
-  await page.getByLabel("Your name").fill("Asha Patil");
-  await page.getByLabel("Business name").fill("Example Services");
-  await page.getByLabel("Email or phone").fill("asha@example.com");
-  await page.getByLabel("Approximate employee count").selectOption("26–100");
-  await page.getByRole("button", { name: "Request a demo", exact: true }).click();
-  await expect(page.locator(".demo-form").getByRole("alert")).toContainText("has not been sent");
-  await expect(page.getByLabel("Your name")).toHaveValue("Asha Patil");
+  // Unconfigured deployments retain the working WhatsApp route and hide the unusable form.
+  await expect(page.locator(".demo-form")).toHaveCount(0);
+  await expect(page.locator('#contact a[href="https://wa.me/919960509991"]').first()).toBeVisible();
+  const response = await page.request.post("/api/demo", { data: { name: "Asha Patil", business: "Example Services", contact: "asha@example.com", employees: "26–100", message: "" } });
+  expect(response.status()).toBe(503);
+  expect((await response.json()).error).toContain("has not been sent");
 });
 
 test("reduced motion, long Devanagari text, and no-JavaScript fallback preserve the whole story", async ({ browser, page }) => {
@@ -92,6 +90,8 @@ test("reduced motion, long Devanagari text, and no-JavaScript fallback preserve 
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   const chat = page.locator(".story-stage .wa-chat");
   await expect.poll(() => chat.evaluate(el => el.scrollHeight - el.clientHeight - el.scrollTop)).toBeLessThan(3);
+  // Restore the DOM after the deliberate external text mutation before testing React updates.
+  await page.reload();
   await page.locator("#how-it-works").getByLabel("Demo language").selectOption("mr");
   await page.locator("#scene-onboarding").evaluate(el => window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 100, behavior: "instant" }));
   await expect(page.locator('.story-stage [aria-current="step"]')).toHaveAttribute("href", "#scene-onboarding");
