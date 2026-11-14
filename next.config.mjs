@@ -5,5 +5,9 @@ const nextConfig = {
   poweredByHeader: false,
   experimental: { cpus: 2 },
 };
-// Keep a live development preview from overwriting production/test build chunks.
-export default phase => ({ ...nextConfig, distDir: phase === PHASE_DEVELOPMENT_SERVER ? ".next" : ".next-production" });
+// Vercel and next start use the standard production output directory.
+// Isolate the development cache so a live preview cannot overwrite build chunks.
+export default phase => ({
+  ...nextConfig,
+  distDir: phase === PHASE_DEVELOPMENT_SERVER ? ".next-dev" : ".next",
+});

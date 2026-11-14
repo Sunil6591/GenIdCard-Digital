@@ -31,3 +31,9 @@ Equivalent WebKit captures are in the same directory.
 Use Node 24 (`nvm use`), then `npm ci`, `npm test`, `npm run build`, and `npm run test:browser`. Chrome uses the installed browser; WebKit must be installed with `npx playwright install webkit`. This session installed WebKit under `/tmp/footfalliq-playwright`; set `PLAYWRIGHT_BROWSERS_PATH` to that directory when reusing it. Browser QA uses port 3102; the normal development/production preview uses 3002.
 
 WhatsApp enquiries work through the supplied public number. Optional form delivery, approved legal policies, final template approval, and the final marketing/login origins still require launch configuration as documented in the README.
+
+## Vercel output-directory correction
+
+The reported Vercel deployment failed because it expected `.next/` while the production configuration generated `.next-production/`. A focused configuration test reproduced this exact mismatch before the fix. Production build and server phases now use `.next/`; local development alone uses `.next-dev/` to preserve cache isolation.
+
+After the fix, all 14 domain/API/configuration tests passed and `npm run build` completed from the repository root. The generated `.next/BUILD_ID`, production manifest (`config.distDir` equal to `.next`), and prerendered homepage were verified. The earlier browser regressions listed above are independent of this configuration fix. A new Vercel deployment has not been verified because the CLI's saved authentication token is invalid.

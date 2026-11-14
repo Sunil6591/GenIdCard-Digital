@@ -13,7 +13,7 @@ npm run dev
 
 Open http://localhost:3002. For production: `npm run build`, then `npm start`. No external fonts, images, analytics, GPS services, or WhatsApp APIs are required to run the demo.
 
-Development output uses `.next/`; production output uses `.next-production/` to prevent concurrent development and production previews from overwriting one another's chunks. Browser QA owns port 3102 via `start:qa`, keeping it separate from your normal preview on 3002.
+Production builds use the standard `.next/` output expected by Vercel and `next start`. Development uses `.next-dev/` so a live preview cannot overwrite production build chunks. On Vercel, use the Next.js framework preset and leave Output Directory at its default (`.next`). Browser QA owns port 3102 via `start:qa`, keeping it separate from your normal preview on 3002.
 
 The primary contact route is **WhatsApp at +91 99605 09991** (`https://wa.me/919960509991`), as requested by the product owner. Header, hero, pricing, industry, footer, and floating CTAs open this conversation. No message is sent automatically. The optional enquiry form is under “Prefer to leave your details?” in the contact section; it is secondary to WhatsApp.
 
